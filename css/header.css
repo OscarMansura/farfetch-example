@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 24px 0; /* espaco entre as margens */
+    background-color: white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    z-index: 999; 
+    transition: 250ms;
+}
+
+.header--min {
+    padding: 0; /* encolhe o header quando ha scroll */
+}
+.header__container { /* filho do header */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header__burger {
+    background: transparent;
+    border: none;
+    display: none;
+}
+@media (max-width: 1023px) {
+    .header__burger {
+        display: block;
+    }
+}
+
+.header__burger span {
+    font-size: 36px;
+}
+
+.header__favourites { /* filho do container */
+    display: block;   /* bloqueia o icon na totalidade */
+    position: relative;
+    padding: 10px;
+    border-radius: 4px; /* formato do icon mais arredandado */
+}
+
+.header__favourites:hover {
+    background-color: #eee; /* muda a cor de fundo do icon e contagem */
+}
+
+.header__counter{
+    position: absolute; /* fica colado ao icon */
+    right: 4px;
+    bottom: 4px;
+}

@@ -1,0 +1,33 @@
+.footer {
+    background-color: #222;
+    color:white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.footer__container {
+
+}
+
+.footer__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item {
+    margin: 0 .5em; 
+}
+
+.footer__link {
+    background: transparent;
+    border: none;
+    color: inherit;
+    padding: 0;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}

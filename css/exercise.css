@@ -1,0 +1,30 @@
+.exercise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.exercise__box {
+   text-align: center;
+}
+
+.exercise__title {
+    font-weight: 700;
+}
+
+.exercise__text {
+    text-align: center;
+}
+
+.exercise__link {
+    color: blue;
+}
+
+@media only screen and (max-width: 800px) {
+    .exercise {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: 1fr;
+}}

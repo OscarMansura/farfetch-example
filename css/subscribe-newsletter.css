@@ -1,0 +1,25 @@
+.subscribe-newsletter {
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.subscribe-newsletter__label {
+    width: 100%;
+    font-weight: 700;
+}
+
+.subscribe-newsletter__email {
+    padding: 8px 16px;
+    border: 3px solid transparent;
+}
+
+.subscribe-newsletter__email--invalid {
+    border-color:red;
+}
+
+.subscribe-newsletter__submit {
+
+}

@@ -1,0 +1,381 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Javascript</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/highlights.css">
+  <link rel="stylesheet" href="css/faqs.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/countdown.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/subscribe-newsletter.css">
+  <link rel="stylesheet" href="css/contact-form.css">
+  <link rel="stylesheet" href="css/exercise.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <!-- header -->
+  <header class="header">
+    <div class="container header__container">
+      <button class="header__burger">
+        <span class="material-symbols-outlined">
+          menu
+        </span>
+      </button>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Produtos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Promoções</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Novidades</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Serviços</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Lojas</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__favourites" href="/wishlist.html">
+        <span class="material-symbols-outlined">
+          favorite
+          <!-- icon -->
+        </span>
+        <span class="header__counter"></span> <!-- contagem dos favoritos -->
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- slideshow -->
+    <div class="slideshow" id="intro">
+      <!-- ancora topo -->
+      <img class="slideshow__image" src="https://placeimg.com/1640/1480/animals" alt="animal">
+      <ul class="slideshow__dots">
+        <li class="slideshow__dot">1</li>
+        <li class="slideshow__dot">2</li>
+        <li class="slideshow__dot">3</li>
+        <li class="slideshow__dot">4</li>
+        <li class="slideshow__dot">5</li>
+      </ul>
+
+      <!-- buttons ou arrows no slideshow -->
+      <button class="slideshow__button slideshow__button--prev">
+        <span class="material-symbols-outlined">
+          arrow_back_ios
+        </span>
+      </button>
+      <button class="slideshow__button slideshow__button--next">
+        <span class="material-symbols-outlined">
+          arrow_forward_ios
+        </span>
+      </button>
+    </div>
+
+    <div class="container">
+
+      <!-- Countdown -->
+      <div class="countdown">
+        <p>Faltam</p>
+        <span>...</span>
+        <p>para ficar um super magnífico <br>awesome frontend developer</p>
+      </div>
+
+
+      <!-- highlights -->
+      <div class="highlights">
+        <h2 class="subtitle highlights__title">Para conhecer e apoiar: nossos Black Designers parceiros
+        </h2>
+        <div class="highlights__grid">
+          <!-- repeat -->
+          <article class="highlights__article">
+            <a class="highlights__link" href="#">
+              <div class="highlights__images">
+                <img class="highlights__image" src="https://placeimg.com/520/680/any" alt="">
+                <img class="highlights__image highlights__image--secondary" src="https://placeimg.com/520/680/any?1"
+                  alt=""> <!-- ?1 imagem diferente -->
+              </div>
+              <div class="highlights__info">
+                <h3 class="highlights__name">Who Decides War</h3>
+                <p class="highlights__description">Jaqueta Jeans Four com bordado</p>
+                <p class="highlights__price">20€</p>
+              </div>
+            </a>
+            <button class="highlights__favourite">
+              <!-- botão -->
+              <span class="material-symbols-outlined">
+                <!-- icon dentro do botão -->
+                favorite
+              </span>
+            </button>
+          </article>
+          <article class="highlights__article">
+            <a class="highlights__link" href="#">
+              <div class="highlights__images">
+                <img class="highlights__image" src="https://placeimg.com/520/680/any" alt="">
+                <img class="highlights__image highlights__image--secondary" src="https://placeimg.com/520/680/any?1"
+                  alt=""> <!-- ?1 imagem diferente -->
+              </div>
+              <div class="highlights__info">
+                <h3 class="highlights__name">Who Decides War</h3>
+                <p class="highlights__description">Jaqueta Jeans Four com bordado</p>
+                <p class="highlights__price">20€</p>
+              </div>
+            </a>
+            <button class="highlights__favourite">
+              <!-- botão -->
+              <span class="material-symbols-outlined">
+                <!-- icon dentro do botão -->
+                favorite
+              </span>
+            </button>
+          </article>
+          <article class="highlights__article">
+            <a class="highlights__link" href="#">
+              <div class="highlights__images">
+                <img class="highlights__image" src="https://placeimg.com/520/680/any" alt="">
+                <img class="highlights__image highlights__image--secondary" src="https://placeimg.com/520/680/any?1"
+                  alt=""> <!-- ?1 imagem diferente -->
+              </div>
+              <div class="highlights__info">
+                <h3 class="highlights__name">Who Decides War</h3>
+                <p class="highlights__description">Jaqueta Jeans Four com bordado</p>
+                <p class="highlights__price">20€</p>
+              </div>
+            </a>
+            <button class="highlights__favourite">
+              <!-- botão -->
+              <span class="material-symbols-outlined">
+                <!-- icon dentro do botão -->
+                favorite
+              </span>
+            </button>
+          </article>
+          <article class="highlights__article">
+            <a class="highlights__link" href="#">
+              <div class="highlights__images">
+                <img class="highlights__image" src="https://placeimg.com/520/680/any" alt="">
+                <img class="highlights__image highlights__image--secondary" src="https://placeimg.com/520/680/any?1"
+                  alt=""> <!-- ?1 imagem diferente -->
+              </div>
+              <div class="highlights__info">
+                <h3 class="highlights__name">Who Decides War</h3>
+                <p class="highlights__description">Jaqueta Jeans Four com bordado</p>
+                <p class="highlights__price">20€</p>
+              </div>
+            </a>
+            <button class="highlights__favourite">
+              <!-- botão -->
+              <span class="material-symbols-outlined">
+                <!-- icon dentro do botão -->
+                favorite
+              </span>
+            </button>
+          </article>
+        </div>
+        <a class="highlights__cta" herf="#">Compre agora</a>
+      </div>
+
+      <!-- Faqs -->
+      <div class="faqs">
+        <h2 class="faqs__headline">Perguntas Frequentes</h2>
+        <div class="faqs__container">
+          <!-- repeat -->
+          <div class="faqs__element">
+            <div class="faqs__header">
+              <h3 class="faqs__title">Como Comprar</h3>
+              <span class="faqs__icon material-symbols-outlined">
+                add
+                <!-- icon -->
+              </span>
+            </div>
+            <div class="faqs__content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corporis ut suscipit placeat accusantium,
+                sint amet magni necessitatibus delectus perspiciatis facere quae excepturi. Nesciunt consequatur odio
+                facere accusantium nihil est.</p>
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam, nam expedita laborum quos
+                quidem harum, et similique nostrum sequi dolorem adipisci porro molestiae ut doloremque, deleniti
+                obcaecati est consequatur!</p>
+            </div>
+          </div>
+          <div class="faqs__element">
+            <div class="faqs__header">
+              <h3 class="faqs__title">Como Comprar</h3>
+              <span class="faqs__icon material-symbols-outlined">
+                add
+              </span>
+            </div>
+            <div class="faqs__content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corporis ut suscipit placeat
+                accusantium, sint amet magni necessitatibus delectus perspiciatis facere quae excepturi. Nesciunt
+                consequatur odio facere accusantium nihil est.</p>
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam, nam expedita laborum quos
+                quidem harum, et similique nostrum sequi dolorem adipisci porro molestiae ut doloremque, deleniti
+                obcaecati est consequatur!</p>
+            </div>
+          </div>
+          <div class="faqs__element">
+            <div class="faqs__header">
+              <h3 class="faqs__title">Como Comprar</h3>
+              <span class="faqs__icon material-symbols-outlined">
+                add
+              </span>
+            </div>
+            <div class="faqs__content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corporis ut suscipit placeat
+                accusantium, sint amet magni necessitatibus delectus perspiciatis facere quae excepturi. Nesciunt
+                consequatur odio facere accusantium nihil est.</p>
+              <h4>Lorem, ipsum dolor.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam, nam expedita laborum quos
+                quidem harum, et similique nostrum sequi dolorem adipisci porro molestiae ut doloremque, deleniti
+                obcaecati est consequatur!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="exercise container">
+      <div class="exercise__box">
+        <span class="material-symbols-outlined">
+          inventory_2
+          </span>
+        <h5 class="exercise__title">Free delivery</h5>
+        <p class="exercise__text">And free returns. See checkout for delivery dates.</p>
+        <a class="exercise__link" href="#" >Learn More ></a>
+      </div>
+      <div class="exercise__box">
+        <span class="material-symbols-outlined">
+          paid
+          </span>
+        <h5 class="exercise__title">Pay monthly at 0% APR</h5>
+        <p class="exercise__text">You can pay over time when you choose to check out with Apple Card Monthly Installments.*</p>
+        <a class="exercise__link" href="#" >Learn More ></a>
+      </div>
+      <div class="exercise__box">   
+          <span class="material-symbols-outlined">
+            maps_ugc
+            </span>       
+        <h5 class="exercise__title">Get help buying</h5>
+        <p class="exercise__text">Have a question? Call a Specialist or chat online. Call 1‑800-MY‑APPLE.</p>
+        <a class="exercise__link" href="#" >Learn More ></a>
+      </div>
+    </section>
+
+    <a class="back-to-top" href="#intro" title="back to top">
+      <!-- ancora para o topo -->
+      <span class="material-symbols-outlined">
+        keyboard_arrow_up
+      </span>
+    </a>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div>
+        <form class="subscribe-newsletter" novalidate autocomplete="off">
+          <label class="subscribe-newsletter__label" for="newsletter-email">Subscreve a nossa newsletter</label>
+          <input id="newsletter-email" class="subscribe-newsletter__email" type="email">
+          <button class="subscribe-newsletter__submit">Subscrever</button>
+        </form>
+      </div>
+      <div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Política de privacidade</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Termos e condições</a>
+          </li>
+          <li class="footer__item">
+            <button data-contact-form class="footer__link" href="#">Contactos</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Overlay -->
+  <div class="overlay">
+
+    <button class="overlay__close">
+      <span class="material-symbols-outlined">
+        close
+      </span>
+    </button>
+
+    <!-- Contact Form -->
+    <form class="contact-form" novalidate autocomplete="off">
+      <label class="contact-form__label" for="cf_name">Nome</label>
+      <input class="contact-form__input" type="text" id="cf_name" name="cf_name">
+
+      <label class="contact-form__label" for="cf_email">Email</label>
+      <input class="contact-form__input" type="email" id="cf_email" name="cf_email">
+
+      <label class="contact-form__label" for="cf_subject">Assunto</label>
+      <input class="contact-form__input" type="text" id="cf_subject" name="cf_subject">
+
+      <label class="contact-form__label" for="cf_message">Mensagem</label>
+      <textarea class="contact-form__input" id="cf_message" name="cf_message" rows="6"></textarea>
+
+      <button class="contact-form__submit" type="submit">Enviar</button>
+    </form>
+
+  </div>
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/faqs.js"></script>
+  <script src="js/slideshow.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/subscribe-newsletter.js"></script>
+  <script src="js/contact-form.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

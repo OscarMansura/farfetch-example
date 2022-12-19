@@ -1,0 +1,48 @@
+.faqs {
+    margin: 4em 0; /* espaco entre as faqs e highlights */
+}
+
+.faqs__headline {
+    text-transform: uppercase; /* aumenta o texto */
+    font-size: 1em;
+    margin: 0;
+}
+
+.faqs__container {
+}
+
+.faqs__element {
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    transition: 250ms;
+}
+
+.faqs__element--open {
+    background-color: yellow;
+}
+
+.faqs__element--open .faqs__content{
+    max-height: 100vh;
+}
+
+.faqs__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.faqs__title {
+    margin: 0;
+}
+
+.faqs__icon {
+
+}
+
+.faqs__content {
+    padding: 10px 20px;
+    max-height: 0;
+    overflow: hidden; /* esconde o texto */
+    transition: 500ms;
+}

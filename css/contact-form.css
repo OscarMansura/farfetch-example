@@ -1,0 +1,27 @@
+.contact-form {
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+    cursor: default;
+}
+.contact_form__label {
+
+}
+.contact-form__input {
+    margin-bottom: 1em;
+    padding: 8px 16px;
+    resize: none;
+    border: 2px solid black;
+}
+.contact-form__input--invalid {
+    border-color: red;
+}
+.contact-form__submit {
+    background-color: #222;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+}
